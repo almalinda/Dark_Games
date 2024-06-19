@@ -1,50 +1,98 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="./main.css">
     <title>Dark Games</title>
 </head>
 <body>
     <header>
         <div class="container">
-        <h1>Dark Games</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#"> Sobre a loja</a>
-            </li>
-            <li>
-                <a href="#">Contado</a>
-            </li>
-            </ul>
-        </nav>
+            <h1>Dark Games</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Sobre a loja</a>
+                    </li>
+                    <li>
+                        <a href="#">Contato</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
-    <section>
+    <section id="about">
         <div class="container">
-            <img src="./images/loja.jpg" alt="fachada da loja">
+            <img class="store-front" src="./images/loja.jpg" alt="Fachada da loja">
+            <div>
+                <h2>Sobre a loja</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Odit, vero placeat beatae temporibus quibusdam saepe earum, 
+                    dolorem impedit, architecto fugiat illo eos unde perferendis 
+                    iure adipisci odio. Totam, deleniti quasi.
+                </p>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Assumenda quis ad dolore iste sequi esse ipsa illo expedita, 
+                    cupiditate in amet, nisi asperiores? 
+                    A fugit ratione consectetur ab corrupti omnis.
+                </p>
+                <ul class="brand-list">
+                    <li><img src="./images/nintendo.png" alt="Nintendo"></li>
+                    <li><img src="./images/playstation.png" alt="Playstation"></li>
+                    <li><img src="./images/xbox.png" alt="Xbox"></li>
+                </ul>
+            </div>
         </div>
-        <div>
-        <h2>Sobre a  loja</h2>
-        <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Reiciendis ipsa saepe odit consequuntur optio odio esse ea, 
-            fugit iusto ratione illo, nisi dolor voluptatibus officiis
-            dolorem repellat recusandae enim corrupti?
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Beatae deserunt aliquam tempora sint, voluptatem nulla voluptates
-            optio ad minima corrupti architecto 
-            praesentium voluptatibus non ipsam atque obcaecati. Ad, magnam non?
-        </p>
-        <ul class="brand-list">
-            <li><img src="./images/nintendo.png" alt=""></li>
-            <li><img src="./images/playstation.png" alt=""></li>
-            <li><img src="./images/xbox.png" alt=""></li>
-        </ul>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <div class="contact-method">
+                <div>
+                    <h3>Fale conosco</h3>
+                    <form>
+                        <input type="text" placeholder="Seu nome">
+                        <input type="email" placeholder="Seu e-mail">
+                        <input type="tel" placeholder="Seu telefone (opcional)">
+                        <textarea placeholder="Sua mensagem"></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div class="social-links">
+                    <h3>Nos acompanhe</h3>
+                    <ul>
+                        <li>
+                            <a href="#" title="Siga no Instagram">
+                                <img src="images/instagram.png" alt="Insta">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Siga no Facebook">
+                                <img src="images/facebook.png" alt="Facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Inscrever no Youtube">
+                                <img src="images/youtube.png" alt="Youtube">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Venha até nós</h3>
+                    <p>
+                        Rua Castelo Branco, 115, Gothan City, Amapá, República de Bananas.
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
 </body>
